@@ -14,7 +14,7 @@ Set Working Directory:
 WORKDIR /var/www
 Defines the working directory inside the container where application files are stored.
 
-	Copy Dependency Files:
+Copy Dependency Files:
 COPY . ./
 Copies all application files into the container.
 
