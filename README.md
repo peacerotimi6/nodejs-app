@@ -1,6 +1,7 @@
 FROM node:alpine – 
 
 Uses a lightweight Node.js image based on Alpine Linux to minimize image size and increase build efficiency.
+
 LABEL author="Dan Wahlin"- 
 Improves documentation by adding metadata, such as the author's name.
 
