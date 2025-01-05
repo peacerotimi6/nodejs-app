@@ -5,6 +5,7 @@ Uses a lightweight Node.js image based on Alpine Linux to minimize image size an
 LABEL author="Dan Wahlin"- 
 Improves documentation by adding metadata, such as the author's name.
 
+
 Environment Configuration:
        ARG PACKAGES=nano
       ENV TERM xterm
@@ -12,7 +13,9 @@ Environment Configuration:
 ARG defines a build-time variable for optional packages (such as nano).
 	ENV defines environment variables (TERM stands for terminal compatibility).
 RUN refreshes the Alpine package management and installs the required tools.
+
 Set Working Directory: 
+
 WORKDIR /var/www
 Defines the working directory inside the container where application files are stored.
 
